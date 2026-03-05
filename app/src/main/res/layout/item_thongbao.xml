@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_notifications_24"
+            app:tint="#FF9800"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTieuDeTB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ĐƠN HÀNG MỚI!"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#333333" />
+
+            <TextView
+                android:id="@+id/tvNoiDungTB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nội dung thông báo ở đây..."
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvNgayTB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2024-05-20 15:30:00"
+                android:textSize="12sp"
+                android:textColor="#999999"
+                android:layout_marginTop="6dp"
+                android:gravity="right" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

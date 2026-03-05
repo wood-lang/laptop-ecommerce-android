@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật thông tin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vui lòng bổ sung SĐT và Địa chỉ để nhận hàng"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/edtSdtUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại (Bắt buộc)"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/edtDiaChiUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ giao hàng"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edtUpdateTenKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên của bạn"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnXacNhanUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận &amp; Vào App"
+        android:backgroundTint="#FF5722"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

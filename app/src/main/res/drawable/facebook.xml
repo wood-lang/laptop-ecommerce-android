@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Blue circle background -->
+    <path
+        android:fillColor="#1877F2"
+        android:pathData="M12,2A10,10 0 1,1 2,12A10,10 0 0,1 12,2z"/>
+
+    <!-- White 'f' logo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13,6h2V9h-2c-0.6,0 -1,0.4 -1,1v2h3l-0.4,3h-2.6v6h-3v-6H8v-3h2v-2
+            c0,-2.1 1.3,-4 3,-4z"/>
+</vector>

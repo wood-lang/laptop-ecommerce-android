@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986856925624",
+    "project_id": "duanlaptop-cf221",
+    "storage_bucket": "duanlaptop-cf221.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986856925624:android:20095bc55bacd55f67474d",
+        "android_client_info": {
+          "package_name": "com.example.duan_laptop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0IWTmnmAomTaJG5SriN6CZ43OtVfTdjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

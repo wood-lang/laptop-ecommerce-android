@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnHome"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item
+    android:id="@+id/mnCart"
+    android:title="CART"
+    android:icon="@drawable/ic_baseline_shopping_cart_24"
+    />
+    <item
+        android:id="@+id/mnuFavorite"
+        android:title="Favorite"
+        android:icon="@drawable/favorite_24px"
+        />
+    <item
+        android:id="@+id/mnuThongBao"
+        android:title="Thông báo"
+        android:icon="@drawable/ic_baseline_notifications_24" />
+    <item
+        android:id="@+id/mnuAccount"
+        android:title="Account"
+        android:icon="@drawable/account_circle_24px"
+        />
+
+
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">duan_laptop</string>
+    <string name="drawer_open">OPEN</string>
+    <string name="drawer_close">CLOSE</string>
+</resources>
